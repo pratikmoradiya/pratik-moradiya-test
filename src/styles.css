@@ -1,1 +1,262 @@
 /* You can add global styles to this file, and also import other style files */
+/* @import "~bootstrap/dist/css/bootstrap.css"; */
+
+html, body {
+    margin: 0;
+    font-size: 20px;
+    height: 100%;
+    background-size: 100% 100% !important;
+    background: url(./assets/images/background.jpg) no-repeat;
+}
+
+.container {
+    max-width: 70%;
+    width:100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-row{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    padding:1em 0;
+    text-align: center;
+    display:flex;
+}
+  
+.header h1{
+      color:#fff;
+      font-size:25px;
+      margin:0;
+      padding:0;
+}
+
+footer {
+    flex: 0 0 auto;
+    height: 1.2em;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    bottom: 25px;
+    width: 100%;
+
+}
+  
+nav {
+    text-align: center;
+    z-index: 33333;
+    
+  }
+  
+nav ul {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+nav ul li {
+    padding: 0 0 0 35px;
+    display: inline;
+}
+  
+nav ul li a {
+    font-size:18px;
+    text-decoration: none;
+    color: #fff !important;
+    padding: 6px 8px;
+}
+
+nav ul li a:hover{
+    background:#ddd;
+    padding: 6px 8px;
+}
+
+nav ul li a {
+    font-size:18px;
+    text-decoration: none;
+    color: #fff;
+}
+  
+  
+.footer-row{display:flex;justify-content: space-between;align-items: center;}
+.footer-link ul{display:flex;list-style:none;padding:0;margin:0;}
+.footer-link ul li a{color:#fff;font-size:18px;text-decoration:none;}
+.footer-link ul li{padding:0 25px 0 0; display: inline-flex}
+.footer-text{color:#fff;font-size:18px;text-decoration:none;}
+.footer-text p {margin-bottom: 0px;}
+.footer-link ul li a:hover{color:#ddd;font-size:18px;text-decoration:none;}
+.container-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    color: wheat;
+}
+.dropdown {
+    margin: 0 0 0 35px;
+}
+.dropdown button{
+    background: transparent;
+    border: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+.dropdown button:focus,.dropdown button:hover{
+    background: transparent;
+    border: none;
+    padding: 0;
+    background-color:none !important;
+    box-shadow: none !important;
+    border-color:none !important;
+}
+
+body .show>.btn-secondary.dropdown-toggle{
+    background-color:transparent !important;
+    box-shadow: none !important;
+    border-color:none !important;
+}
+
+.right-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/***responsive***/
+@media (min-width:768px) {
+    .navbar .dropdown:hover>.dropdown-menu {display: block;}
+    .header {
+      border: none !important;
+    }
+    #toggle{
+        display:none;
+    }
+    nav ul li a {
+        transition: inherit !important;
+    }
+}
+
+@media screen and (max-width:1366px) {
+    .container {
+        max-width: 95%;
+    }
+    .header h1 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+nav ul li {
+    padding: 0 0 0 5px;
+    display: inline;
+}
+
+.dropdown {
+    margin: 0 0 0 5px;
+}
+
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer-link {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-text {
+  text-align: center;
+  width: 100%;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+}
+
+}
+  
+@media screen and (max-width:767px) {
+  
+    div hr {
+      width: 37px;
+      border-radius: 5px;
+      height: 5px;
+      border: none;
+      background-color: #fff;
+      right: 0;
+      opacity: inherit;
+      position: absolute;
+      margin: 10px 0;
+    }
+    hr:nth-child(2) {
+      position: relative;
+    }
+    hr:nth-child(1) {
+      position: relative;
+      transition: 0.5s;
+    }
+    hr:nth-child(3) {
+      position: relative;
+      transition: 0.5s;
+    }
+    header {
+      margin-top: 0px;
+    }
+    nav {
+      position: absolute;
+      margin-top: 65px;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #000000;
+      background-image: url("http://www.transparenttextures.com/patterns/dark-denim-3.png");
+    }
+    nav ul {
+      list-style-type: none;
+      display: none;
+    }
+    nav ul li {
+      padding: 0;
+      display: block;
+      border-bottom: 2px solid #555;
+      margin-left: -50px;
+    }
+    nav ul li a {
+      font-size: 25px;
+      font-family: Dax;
+      text-decoration: none;
+      color: #777;
+    }
+    nav ul li:last-child {
+      border-bottom: none;
+    }
+}
+.active1 {
+    transform: rotate(45deg);
+    background-color: whitesmoke;
+}
+.active3 {
+    transform: rotate(-45deg);
+    position: relative;
+    margin-top: 22px;
+    background-color: whitesmoke;
+}

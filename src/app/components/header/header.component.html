@@ -1,0 +1,34 @@
+<div class="header">
+<div class="container">
+    <div class="header-row">
+            <div class="logo-bx">
+               <h1>{{'main_title'|translate}}</h1>
+            </div>
+            <!-- For responsive you can set toogle functionality -->
+            <div id="toggle">
+               <hr>
+               <hr>
+               <hr>
+            </div>
+            <div class="right-box">
+                    <nav id="menu">
+                        <ul>
+                            <li><a href="javascript:void(0)"><span class="dashboard-icons"></span>{{'menu_link_dashboard'|translate}}</a></li>
+                            <li><a href="javascript:void(0)"><span class="register-icons"></span>{{'menu_link_register'|translate}}</a></li>
+                            <li><a href="javascript:void(0)"><span class="login-icons"></span>{{'menu_link_login'|translate}}</a></li>
+                            <li><a href="javascript:void(0)"><span class="lock-icons"></span>{{'menu_link_lock'|translate}}</a></li>
+                        </ul>
+                </nav>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {{currentLanguage|uppercase}}
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="javascript:void(0)" (click)="changeLanguage(len)" *ngFor="let len of supportedLanguages">{{len|uppercase}}</a>
+                    </div>
+                </div>
+          </div>
+
+    </div>
+  </div>
+  </div>

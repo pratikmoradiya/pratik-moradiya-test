@@ -1,0 +1,16 @@
+{
+    "main_title": "Panel d'employés DotSolved",
+    "menu_link_dashboard": "Tableau de bord",
+    "menu_link_register": "Enregistrer",
+    "menu_link_login": "Connexion",
+    "menu_link_lock": "Serrure",
+    "footer_link_home": "Maison",
+    "footer_link_company": "Entreprise",
+    "footer_link_profile": "Profil",
+    "footer_link_blog": "Blog",
+    "footer_text": "@{{year}}, DotSolved Fait avec amour pour un meilleur web",
+    "otp_page_title": "Vérifier OTP",
+    "otp_page_timer_text": "Temps restant",
+    "otp_page_resend_text": "Renvoyer OTP",
+    "otp_submit_btn": "Vérifier"
+}

@@ -1,0 +1,16 @@
+{
+    "main_title": "DotSolved panel zaměstnanců",
+    "menu_link_dashboard": "Přístrojová deska",
+    "menu_link_register": "Registrovat",
+    "menu_link_login": "Přihlásit se",
+    "menu_link_lock": "Zámek",
+    "footer_link_home": "Domov",
+    "footer_link_company": "Společnost",
+    "footer_link_profile": "Profil",
+    "footer_link_blog": "Blog",
+    "footer_text": "@{{year}}, DotSolved Vyrobeno s láskou pro lepší web",
+    "otp_page_title": "Ověřte jednorázové heslo",
+    "otp_page_timer_text": "Zbývající čas",
+    "otp_page_resend_text": "Znovu odeslat jednorázové heslo",
+    "otp_submit_btn": "Ověřte"
+}

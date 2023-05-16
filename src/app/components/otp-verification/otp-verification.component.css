@@ -1,0 +1,61 @@
+.bgWhite{
+    background:white;
+    border-radius: 20px;
+}
+  
+.title{
+    font-weight:600;
+    margin-top:20px;
+    font-size:24px;
+    color: #000;
+}
+  
+.customBtn{
+    border-radius: 12px;
+    padding: 10px 50px;
+    background: #111;
+    border: none;
+}
+
+.customBtn:hover{
+    background: white;
+    border: 1px solid #111;
+    color: #111;
+
+}
+  
+form input{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    text-align:center;
+    margin: 0 10px;
+}
+
+.timer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+}
+
+.timer-text {
+    color: #111;
+    font-size: 14px;
+}
+
+.resend-link a {
+    color: #111;
+    font-size: 14px;
+}
+
+.resend-link a.disabled {
+    color: #111;
+    font-size: 14px;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.resend-link a:hover {
+    color: green;
+}
